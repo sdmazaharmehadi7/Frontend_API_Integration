@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All Products</title>
+        <link rel="stylesheet" href="All_Products.css">
+    </head>
+    <body>
+        <header>
+        <nav class="header-nav">
+            <h1>Products</h1>
+            <div class="filter-controls">
+            <input type="text" id="search-input" placeholder="Search for products">
+            <select id="category-select">
+                <option value="">All Categories</option>
+                <option value="smartphones">Smartphones</option>
+                <option value="laptops">Laptops</option>
+                <option value="fragrances">Fragrances</option>
+                <option value="beauty">Beauty</option>
+                <option value="groceries">Groceries</option>
+            </select>
+            </div>
+        </nav>
+        </header>
+        <div id="product-container"></div>
+        <template id="template">
+            <div class="product-card">
+                <h3 class="title"></h3>
+            <div class="details"></div>
+            <div id="price_btn">
+                <span class="price"></span>
+                <a class="view-details-btn" href="">View Details</a>
+            </div>
+            </div>
+        </template>
+    </body>
+    <script src="All_Products.js"></script>
+</html>

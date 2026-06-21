@@ -1,0 +1,31 @@
+body{
+    background-color: #f9f9f9;
+}
+.container{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(2,1fr);
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 1200px;
+    padding: 25px;
+    margin-left: 9%;
+    background-color: rgb(255, 255, 255);
+}
+#image{ 
+    width: 500px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 20px;
+
+    display: block;
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+}
